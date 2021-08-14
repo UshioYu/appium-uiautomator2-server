@@ -15,6 +15,11 @@
                 <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
             </intent-filter>
         </receiver>
+        <receiver android:name="io.appium.uiautomator2.jacoco.JacocoReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.JACOCO_REPORT" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

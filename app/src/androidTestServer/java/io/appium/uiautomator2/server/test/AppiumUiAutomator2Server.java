@@ -24,7 +24,7 @@ public class AppiumUiAutomator2Server {
     public void startServer() {
         if (serverInstrumentation == null) {
             serverInstrumentation = ServerInstrumentation.getInstance();
-            Logger.info("[AppiumUiAutomator2Server]", " Starting Server");
+            Logger.info("ushio [AppiumUiAutomator2Server]", " Starting Server");
             try {
                 while (!serverInstrumentation.isServerStopped()) {
                     SystemClock.sleep(1000);
