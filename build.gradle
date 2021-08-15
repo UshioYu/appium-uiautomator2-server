@@ -52,7 +52,7 @@ allprojects {
 sonarqube {
     properties {
         property "sonar.host.url", "https://sonarqube.stuq.ceshiren.com/"
-        property "sonar.login", "e3ef00cf6fef4e735230b999f7c29dbc229a2eea"
+        property "sonar.login", ""
         property "sonar.projectKey", "appium-uiautomator2-server-ushio"
         property "sonar.projectName", "appium-uiautomator2-server-ushio"
         property "sonar.sourceEncoding", "UTF-8"
